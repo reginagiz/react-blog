@@ -1,24 +1,32 @@
-# Logs
-logs
-*.log
+# Node modules
+/node_modules/
+
+# TypeScript
+/dist/
+/build/
+/*.tsbuildinfo
+
+# Vite
+/vite.config.ts
+/.vite/
+
+# IDEs
+/.idea/
+/.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Prettier cache
+/.prettier
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# .env files (если используются переменные окружения)
+.env
+.env.local
+.env.*.local
