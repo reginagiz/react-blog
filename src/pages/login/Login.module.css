@@ -1,0 +1,36 @@
+.login {
+    min-width: 100%;
+}
+
+.login_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.login_container h2 {
+    text-align: center;
+}
+
+.login_form {
+    width: 100%;
+    background-color: white;
+    max-width: 400px;
+    padding: 40px;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.login_form .ant-form-item {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.login_form button {
+    margin-top: 20px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
